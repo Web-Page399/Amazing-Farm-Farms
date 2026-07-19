@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Products | AMAZING Farms</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f9f4;
+}
+
+header{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+header h1{
+    font-size:45px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    padding:50px 0;
+}
+
+.section-title{
+    text-align:center;
+    color:#2e7d32;
+    margin-bottom:35px;
+    font-size:35px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.card h3{
+    color:#2e7d32;
+    margin-bottom:10px;
+}
+
+.price{
+    color:#ff9800;
+    font-size:20px;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+.status{
+    color:green;
+    font-weight:bold;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#2e7d32;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:16px;
+    margin-top:15px;
+}
+
+button:hover{
+    background:#1b5e20;
+}
+
+footer{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🌾 Our Farm Products</h1>
+<p>Fresh Crops • Healthy Livestock • Quality You Can Trust</p>
+</header>
+
+<div id="imageViewer" class="viewer">
+    <span class="close">&times;</span>
+    <img class="viewer-content" id="fullImage">
+</div>
+
+<div class="container">
+
+<h2 class="section-title">🌽 Crops</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="maize in bag6.jpg" alt="Maize">
+<div class="card-content">
+<h3>Fresh Maize</h3>
+<p>Healthy, naturally grown maize harvested from our farm.</p>
+<div class="price">₦25,000 / Bag</div>
+<div class="status">Available</div>
+<button>Contact Us <br> 07061255937, 08133202113, 07035616748</br></button>
+</div>
+</div>
+
+<div class="card">
+<img src="broiler.jpg"> alt="Rice">
+<div class="card-content">
+<h3>Rice</h3>
+<p>High-quality locally produced rice.</p>
+<div class="price">₦60,000 / Bag</div>
+<div class="status">Available</div>
+<button>Contact Us <br> 07061255937, 08133202113, 07035616748</br></button>
+</div>
+</div>
+
+
+<div class="card">
+<img src="vege harvesting.jpg" alt="Vegetables">
+<div class="card-content">
+<h3>Fresh Vegetables</h3>
+<p>Organic vegetables harvested daily.</p>
+<div class="price">₦2,000 / Basket</div>
+<div class="status">Available</div>
+<button>Contact Us <br> 07061255937, 08133202113, 07035616748</br></button>
+</div>
+</div>
+
+</div>
+
+<br><br>
+
+<h2 class="section-title">🐄 Livestock</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="images/broiler.jpg" alt="Broiler Chicken">
+<div class="card-content">
+<h3>Broiler Chickens</h3>
+<p>Healthy broilers raised with quality feed.</p>
+<div class="price">₦8,500 Each</div>
+<div class="status">Available</div>
+<button>Contact Us <br> 07061255937, 08133202113, 07035616748</br></button>
+</div>
+</div>
+
+<div class="card">
+<img src="images/goat.jpg" alt="Local Goat">
+<div class="card-content">
+<h3>Local Goats</h3>
+<p>Strong and healthy indigenous goats.</p>
+<div class="price">₦85,000 Each</div>
+<div class="status">Available</div>
+<button>Contact Us <br> 07061255937, 08133202113, 07035616748</br></button>
+</div>
+</div>
+
+<div class="card">
+<img src="images/ram.jpg" alt="Local Ram">
+<div class="card-content">
+<h3>Local Rams</h3>
+<p>Well-fed rams suitable for breeding and meat.</p>
+<div class="price">₦120,000 Each</div>
+<div class="status">Available</div>
+<button>Contact Us <br> 07061255937, 08133202113, 07035616748</br></button>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+© 2026 Amazing Farms | Fresh Crops & Healthy Livestock
+</footer>
+
+</body>
+</html>
